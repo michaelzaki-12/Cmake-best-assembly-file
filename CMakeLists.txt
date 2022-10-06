@@ -19,7 +19,7 @@ add_compile_options(
 #add_executable(yourcode)
 
 
-#set_target_properties(assembly PROPERTIES NASM_OBJ_FORMAT elf64)
+#set_target_properties(assembly PROPERTIES NASM_OBJ_FORMAT elf64)   uncomment it when using the file
 
 
 set(CMAKE_ASM_NASM_FLAGS_DEBUG "-g -Fdwarf")
